@@ -1,4 +1,4 @@
-.card {
+.mycard {
   background: #fff;
   border-radius: 2px;
   height: 300px;
@@ -14,7 +14,7 @@
   text-align: center;
   background:#6CADDC;
 }
-.img-container > img {
+.cardImg {
   height: 250px;
   padding: auto;
   margin: 25px
