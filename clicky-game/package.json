@@ -8,11 +8,13 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "cd client && yarn && yarn run build npm install terser@3.14.1 --prefix client"
+    "heroku-postbuild": "cd client && yarn && yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
